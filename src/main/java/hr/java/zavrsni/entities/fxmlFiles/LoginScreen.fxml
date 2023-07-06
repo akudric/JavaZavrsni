@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.PasswordField?>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.zavrsni.entities.Controllers.LoginController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="640.0">
+        <children>
+          <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="321.0" prefWidth="300.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Text layoutX="262.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                     <font>
+                        <Font size="31.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="36.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login iz direktroija:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="directoryTextField" layoutX="188.0" layoutY="111.0" prefHeight="25.0" prefWidth="405.0" text="C:/Users/Antonio/Desktop/JavaZavrsni/src/main/resources/LoadMe.txt" />
+                  <Text layoutX="36.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="36.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="usernameTextField" layoutX="188.0" layoutY="147.0" />
+                  <PasswordField fx:id="passwordTextField" layoutX="188.0" layoutY="188.0" />
+                  <Button fx:id="loginButton" layoutX="199.0" layoutY="295.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="126.0" text="Login" />
+               </children>
+          </AnchorPane>
+        </children>
+      </VBox>
+   </children>
+</VBox>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.zavrsni.entities.Controllers.ChangesController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="321.0" prefWidth="300.0" VBox.vgrow="ALWAYS">
+      <children>
+            <TableView fx:id="changesTableView" prefHeight="399.0" prefWidth="600.0">
+              <columns>
+                <TableColumn fx:id="oldValueColumn" prefWidth="202.0" text="Old Value" />
+                <TableColumn fx:id="newValueColumn" prefWidth="200.0" text="New Value" />
+                  <TableColumn fx:id="timeOfChangeColumn" prefWidth="197.0" text="TimeOfChange" />
+              </columns>
+            </TableView>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

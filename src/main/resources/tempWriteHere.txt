@@ -1,0 +1,9 @@
+white Pawn D 5
+black Pawn E 4
+white Pawn X E 4
+black Pawn C 3
+white Queen X D 2
+black Pawn B 3
+white Queen E 2
+black Pawn F 3
+white Queen X E 1
